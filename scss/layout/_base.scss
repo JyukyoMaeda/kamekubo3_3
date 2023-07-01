@@ -86,7 +86,14 @@ img{
 
 }
 
-
+.w1280{
+	width: 95% !important;
+	max-width: 1280px;
+	margin: auto;
+	&.-s100{
+		width: 100% !important;
+	}
+}
 
 .w1200{
 	width: 95% !important;
@@ -123,6 +130,12 @@ img{
 
 // 幅調整用 margin = 要素外の空間
 // 上のみ
+.l-mgt_1{
+	margin-top: 1vh !important;
+	@include mq(tb){
+		margin-top: 1vh !important;
+	}
+}
 .l-mgt_5{
 	//mgt=「margin-top」の略です。
 	//文末の数字は、「PC」でも数値に合わせて設計してください。「sp」時は、1/2です。

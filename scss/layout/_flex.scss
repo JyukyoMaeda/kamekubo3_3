@@ -59,6 +59,11 @@
 						padding: 0 0 0 1.5vw;
 					}
 				}
+				&.-center_only{
+					@include mq(tb){
+						width: 50%;
+					}
+				}
 			}
 		}
 		// スマホ時 > 順番逆
@@ -126,97 +131,18 @@
 		&.-contact{//お問い合わせ
 			display: flex;
 			flex-wrap: wrap;
-			justify-content: space-evenly;
-			width: 90vw;
+			justify-content: space-between;
+			width: 90%;
 			margin: auto;
 			@media screen and (min-width: 768px){
 				flex-wrap: nowrap;
-				width: 100vw;
+				width: 100%;
 				max-width: 1170px;
 			}
 			.flexItem{
 				width: 35vw;
 				@include mq(tb){
 					width: 15vw;
-				}
-			}
-		}
-		&.-contact02{
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-evenly;
-			width: 90vw;
-			margin: auto;
-			@media screen and (min-width: 768px){
-				flex-wrap: nowrap;
-				width: 100vw;
-				max-width: 1350px;
-			}
-			.flexItem{
-				width: 32vw;
-				margin-bottom: 2vw;
-				@include mq(tb){
-					width: 12vw;
-					margin-bottom: auto;
-
-				}
-			}
-		}
-		&.-contact03{
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-			width: 90vw;
-			margin: auto;
-			@media screen and (min-width: 768px){
-				flex-wrap: nowrap;
-				width: 100vw;
-				// max-width: 1290px;
-			}
-			.flexItem{
-				width: 42vw;
-				margin-bottom: 5vw;
-				@include mq(tb){
-					width: 20vw;
-					margin-bottom: auto;
-				}
-			}
-		}
-		&.-contact-box{
-			display: flex;
-			flex-wrap: wrap;
-			width: 100%;
-			margin: auto;
-			@media screen and (min-width: 768px){
-				flex-wrap: nowrap;
-			}
-			.flexItem{
-				width: calc(50%);
-				@media screen and (min-width: 768px){
-					width: 25%;
-				}
-
-				&:nth-child(1){
-					.l-linkImg{
-						background: $contact-item-1;
-					}
-				}
-				&:nth-child(2){
-					.l-linkImg{
-						background: $contact-item-2;
-					}
-
-				}
-				&:nth-child(3){
-					.l-linkImg{
-						background: $contact-item-3;
-					}
-
-				}
-				&:nth-child(4){
-					.l-linkImg{
-						background: $contact-item-4;
-					}
 				}
 			}
 		}
