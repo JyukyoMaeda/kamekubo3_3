@@ -540,10 +540,10 @@ img {
   padding: 15% 23%;
 }
 .l-contents.-img-bg .l-contentsBox.-btmBtn {
-  top: 50%;
+  top: 74%;
   left: 50%;
   transform: translateX(-50%);
-  width: 20%;
+  width: 75%;
 }
 @media screen and (min-width: 767px) {
   .l-contents.-img-bg .l-contentsBox.-btmBtn {
