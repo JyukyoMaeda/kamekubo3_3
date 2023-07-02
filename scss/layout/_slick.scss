@@ -67,6 +67,37 @@
             }
         }
     }
+
+    .house-slider{
+        .l-slickImg {
+            margin: auto;
+            text-align: center;
+            img{
+                width: 100%;
+                height: auto;
+                padding: 0 20px;
+                @include mq(tb){
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+    .location-slider{
+        .l-slickImg {
+            margin: auto;
+            text-align: center;
+            img{
+                width: 100%;
+                height: auto;
+                padding: 0 55px;
+                @include mq(tb){
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
 }
 
 
@@ -109,10 +140,5 @@
         left: 5%;
     }
   }
-//   button {
-//     -webkit-appearance: none;
-//     -moz-appearance: none;
-//     appearance: none;
-//     outline: none;
-//     padding: 0;
-//   }
+
+

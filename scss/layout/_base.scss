@@ -93,6 +93,12 @@ img{
 	&.-s100{
 		width: 100% !important;
 	}
+	&.-w65{//コンタクトなどに使用してください。
+		width: 85% !important;
+		@include mq(tb){
+			width: 65% !important;
+		}
+	}
 }
 
 .w1200{
@@ -106,6 +112,11 @@ img{
 .w1050{
 	width: 95%;
 	max-width: 1050px;
+	margin: auto;
+}
+.w850{
+	width: 95%;
+	max-width: 850px;
 	margin: auto;
 }
 .w90-s{
@@ -208,7 +219,7 @@ img{
 	}
 }
 .l-mgb_1{
-	margin-bottom: 1vh !important;
+	margin-bottom: 1vh;
 	@include mq(tb){
 		margin-bottom: 1vh !important;
 	}
@@ -261,9 +272,24 @@ img{
 			margin-bottom: 1vh !important;
 		}
 	}
+	&.-s_3{
+		@include mq(sp){
+			margin-bottom: 3vh !important;
+		}
+	}
 	&.-s_5{
 		@include mq(sp){
 			margin-bottom: 5vh !important;
+		}
+	}
+	&.-s_8{
+		@include mq(sp){
+			margin-bottom: 8vh !important;
+		}
+	}
+	&.-s_10{
+		@include mq(sp){
+			margin-bottom: 10vh !important;
 		}
 	}
 	@include mq(tb){

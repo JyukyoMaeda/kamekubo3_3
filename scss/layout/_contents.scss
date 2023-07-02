@@ -42,10 +42,10 @@
 			}
 			// サイト下部に表示（SPのみ）
 			&.-btmBtn{
-				top: 74%;
+				top: 76%;
 				left: 50%;
 				transform: translateX(-50%);
-				width: 75%;
+				width: 55%;
 				@include mq(tb){
 					top: 75%;
 					left: 70.6%;
@@ -71,19 +71,35 @@
 				left: 50%;
 				transform: translate(-50%,-50%);
 			}
-			// .l-contentsBox--wrapper{
-			// 	width: 100%;
-			// 	height: auto;
-			// 	@include mq(tb){
-			// 		width: 100%;
-			// 		max-width: 1315px;
-			// 		margin: auto;
-			// 	}
-			// }
 			&.-text{
 				top: 50%;
 				left: 50%;
 				transform: translate(-50%,-50%);
+			}
+			&.-houseDesign{
+				top: 48%;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+			&.-houseDesign02{
+				top: 83%;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+			&.-locationArea01{
+				top: 75%;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+			&.-locationArea02{
+				top: 68%;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+			&.-locationArea03{
+				top: 15%;
+				left: 50%;
+				transform: translateX(-50%);
 			}
 		}
 	}

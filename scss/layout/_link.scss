@@ -234,4 +234,25 @@
             margin-right: 2%;
         }
     }
+    &.-p03{
+        display: block;
+        border-bottom: 1px solid white;
+        transform: scale(1);
+        transition-duration: 0.5s;
+        overflow: hidden;
+        @include mq(tb){
+            transition: all 0.5s ease-in-out;
+            p,a,span{
+                transition: all 0.5s ease-in-out;
+            }
+            &:hover{
+                transform: scale(1.1);
+                transition-duration: 0.2s;
+                p,a,span{
+                    // color: rgb(141, 2, 2);
+                    // transition-duration: 0.2s;
+                }
+            }
+        }
+    }
 }

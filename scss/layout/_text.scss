@@ -271,7 +271,10 @@
         }
     // 位置
     &.-left{text-align: start;}
-    &.-center{text-align: center;}
+    &.-center{
+        text-align: center;
+        margin: auto;
+    }
     &.-right{text-align: end;}
 
     &.-sp-left{
