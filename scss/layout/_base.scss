@@ -116,7 +116,12 @@ img{
 }
 .w850{
 	width: 95%;
-	max-width: 850px;
+	max-width: 850px !important;
+	margin: auto;
+}
+.w700{
+	width: 95%;
+	max-width: 700px !important;
 	margin: auto;
 }
 .w90-s{
