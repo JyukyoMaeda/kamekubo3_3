@@ -270,6 +270,11 @@ img{
 		margin-bottom: 10vh !important;
 	}
 }
+.l-mgb_15{
+	@include mq(tb){
+		margin-bottom: 15vh !important;
+	}
+}
 .l-mgb_20{
 	margin-bottom : 10vh !important;
 	&.-s_1{

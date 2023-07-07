@@ -363,6 +363,12 @@ img {
   }
 }
 
+@media screen and (min-width: 767px) {
+  .l-mgb_15 {
+    margin-bottom: 15vh !important;
+  }
+}
+
 .l-mgb_20 {
   margin-bottom: 10vh !important;
 }
@@ -638,6 +644,26 @@ img {
   left: 50%;
   transform: translateX(-50%);
 }
+.l-contents.-btnArea.-return a {
+  display: block;
+  width: 20%;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: auto;
+  text-align: center;
+  box-shadow: 1px 1px gray;
+}
+@media screen and (min-width: 767px) {
+  .l-contents.-btnArea.-return a {
+    width: 10%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .l-contents.-btnArea.-return a {
+    width: 6%;
+  }
+}
+
 .l-flex--area {
   height: 100%;
 }
