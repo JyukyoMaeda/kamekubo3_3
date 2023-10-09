@@ -144,6 +144,18 @@ img{
 }
 
 
+.w_hensai{
+	width: 80% !important;
+	margin: auto;
+	@include mq(tb){
+		width: 40% !important;
+	}
+	@include mq(tb-pc1000){
+		width: 30% !important;
+	}
+}
+
+
 // 幅調整用 margin = 要素外の空間
 // 上のみ
 .l-mgt_1{

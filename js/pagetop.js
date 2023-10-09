@@ -2,7 +2,7 @@
 //スクロールした際の動きを関数でまとめる
 function PageTopAnime() {
    var scroll = $(window).scrollTop();
-   if (scroll >= 1500){
+   if (scroll >= 1000){
          $('#pageTop').removeClass('DownMove');
          $('#pageTop').addClass('UpMove');
    }else{
@@ -28,7 +28,7 @@ function PageTopAnime() {
       // #で始まるアンカーをクリックした場合に処理
       $('a[href^="#"]:not(.inline)').click(function() {
          // スクロールの速度
-         var speed = 300; // ミリ秒
+         var speed = 500; // ミリ秒
           // 移動先を取得
          var href= $(this).attr("href");
          var target = $(href == "#" || href == "" ? 'html' : href);

@@ -207,6 +207,21 @@ img {
   }
 }
 
+.w_hensai {
+  width: 80% !important;
+  margin: auto;
+}
+@media screen and (min-width: 767px) {
+  .w_hensai {
+    width: 40% !important;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .w_hensai {
+    width: 30% !important;
+  }
+}
+
 .l-mgt_1 {
   margin-top: 1vh !important;
 }
